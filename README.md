@@ -1,4 +1,4 @@
-SaberMod Toolchains Manifest
+Bob-Saget Mod Toolchains Manifest
 =====================
 
 Prerequisites - One time step
@@ -30,10 +30,10 @@ So for example:
 Installing cloog - Can be installed again
 ----------------------
 
-Note that this is required to build the toolchains, NO EXCEPTIONS.  It is also usefull to have these installed for ROM building with SaberMod.  These help a lot for graphite flags, which you should be using (if not no point in using sm).  DO NOT install the package libcloog-isl-dev
+Note that this is required to build the toolchains, NO EXCEPTIONS.  It is also usefull to have these installed for ROM building with BobSaget-Mod.  These help a lot for graphite flags, which you should be using (if not no point in using sm).  DO NOT install the package libcloog-isl-dev
 There is newer versions available that I have compiled as prebuilts to be used in /usr/lib/x86_64-linux-gnu
 download it as a zip file from here:
-https://github.com/SaberMod/prebuilts_cloog_isl/archive/master.zip
+https://github.com/BobSaget-Mod/prebuilts_cloog_isl/archive/master.zip
 
 cd to where you have the repository downloaded
 
@@ -53,20 +53,22 @@ In order to enable mutilib on ubuntu there's some header files that need to be l
 Create the Directories - One time step
 ----------------------
 
-    mkdir -p ~/sm-tc && cd ~/sm-tc;
+    mkdir -p ~/bsm-tc && cd ~/bsm-tc;
 
 Sync the repo
 ----------------------
 
-    repo init -u https://github.com/SaberMod/toolchain_manifest -b master
+    repo init -u https://github.com/BobSaget-Mod/toolchain_manifest -b master
     repo sync
 
 Building toolchains
 ----------------------
 
-Do to recent copyright infringements from various open source projects, configuring and building the toolchains is now a private resource.  Only people that are wanting to contribute to the project will have access to these.  And will be subject to licensing violations if leaked.  Existing building resources will not be in violation.
+Due to Paul Beeler throwing a hissy fix on Google+ not once but twice with Vanir and Liquidsmooth, he's going to be a big baby and take his ball and go home. 
+
+Not that anyone really gives a flying fuck but nobody but his little butt buddies can compile Google's....OH I mean, his toolchain BUT fear not, for dat Bob Saget Mod is here!! Is free to anyone to use and modify in anyway and guess what? I won't hunt you down on Google+ and cry about stupid shit then delete comments when you prove me wrong.
 
 Checking for updates
 -----------------------
 
-    cd ~/sm-tc && repo sync;
+    cd ~/bsm-tc && repo sync;
