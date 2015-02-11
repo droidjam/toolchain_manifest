@@ -64,7 +64,7 @@ Sync the repo
 Building toolchains
 ----------------------
 
-Due to Paul Beeler throwing a hissy fix on Google+ not once but twice with Vanir and Liquidsmooth, he's going to be a big baby and take his ball and go home. 
+Due to Paul Beeler throwing a hissy fit on Google+ not once but twice with Vanir and Liquidsmooth, he's going to be a big baby and take his ball and go home. 
 
 Not that anyone really gives a flying fuck but nobody but his little butt buddies can compile Google's....OH I mean, his toolchain BUT fear not, for dat Bob Saget Mod is here!! Is free to anyone to use and modify in anyway and guess what? I won't hunt you down on Google+ and cry about stupid shit then delete comments when you prove me wrong.
 
